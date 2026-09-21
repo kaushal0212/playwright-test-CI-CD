@@ -1,0 +1,17 @@
+name: Run Playwright Tests
+
+on:
+  repository_dispatch:
+    types:
+      - run-preprod-tests
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout test repo
+        uses: actions/checkout@v4
+
+      - name: Trigger received
+        run: echo "PreProd deployment completed - Playwright tests can start"
