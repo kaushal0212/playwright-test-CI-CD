@@ -1,0 +1,23 @@
+{
+  "name": "playwright-test-ci-cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushal0212/playwright-test-CI-CD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kaushal0212/playwright-test-CI-CD/issues"
+  },
+  "homepage": "https://github.com/kaushal0212/playwright-test-CI-CD#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2"
+  }
+}
